@@ -1,0 +1,10 @@
+<h2>connection!</h2>
+<div>
+<form [formGroup]="usersalesForm">
+    <input type="string" formControlName="namee" id="namee" placeholder="your full name" required />
+    <input type="string" formControlName="email" id="email" placeholder="your full email" required />
+    <input type="string" formControlName="passwor" id="passwor" placeholder="your full passwor" required />
+    <input type="string" formControlName="roles" id="roles" placeholder="your full roles" required />
+    <button type="submit" (click)="onSubmitForm()">Enregistrer</button>
+</form>
+</div>
